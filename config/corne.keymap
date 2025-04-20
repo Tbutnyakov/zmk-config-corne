@@ -94,10 +94,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp GRAVE  &kp SQT          &kp DOUBLE_QUOTES  &kp LESS_THAN  &kp GREATER_THAN      &kp DOT      &kp COMMA      &kp SEMI    &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp CARET     &kp BACKSPACE
-&trans     &kp EXCLAMATION  &kp MINUS          &kp PLUS       &kp EQUAL             &kp HASH     &kp PERCENT    &kp COLON   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp QUESTION  &kp HOME
-&trans     &kp UNDER        &kp SLASH          &kp ASTERISK   &kp NON_US_BACKSLASH  &kp PIPE     &kp AMPERSAND  &kp DOLLAR  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp AT_SIGN   &kp DELETE
-                                               &trans         &trans                &kp SPACE    &kp RET        &trans      &kp RALT
+&kp GRAVE  &kp SQT          &kp DOUBLE_QUOTES  &kp LESS_THAN    &kp GREATER_THAN      &kp DOT      &kp COMMA      &kp SEMI    &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp CARET     &kp BACKSPACE
+&trans     &kp EXCLAMATION  &kp KP_MINUS       &kp KP_PLUS      &kp EQUAL             &kp HASH     &kp PERCENT    &kp COLON   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp QUESTION  &kp HOME
+&trans     &kp UNDER        &kp KP_SUBTRACT    &kp KP_MULTIPLY  &kp NON_US_BACKSLASH  &kp PIPE     &kp AMPERSAND  &kp DOLLAR  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp AT_SIGN   &kp DELETE
+                                               &trans           &trans                &kp SPACE    &kp RET        &trans      &kp RALT
             >;
         };
 
