@@ -22,6 +22,36 @@
             bindings = <&mo 3>;
             key-positions = <37 40>;
         };
+
+        combo_brace_left {
+            bindings = <&kp LEFT_BRACE>;
+            key-positions = <28 29>;
+        };
+
+        combo_brace_right {
+            bindings = <&kp RIGHT_BRACE>;
+            key-positions = <31 30>;
+        };
+
+        combo_pares_left {
+            bindings = <&kp LEFT_PARENTHESIS>;
+            key-positions = <17 16>;
+        };
+
+        combo_pares_right {
+            bindings = <&kp RIGHT_PARENTHESIS>;
+            key-positions = <18 19>;
+        };
+
+        combo_brackets_right {
+            bindings = <&kp RIGHT_BRACKET>;
+            key-positions = <6 7>;
+        };
+
+        combo_brackets_left {
+            bindings = <&kp LEFT_BRACKET>;
+            key-positions = <5 4>;
+        };
     };
 
     behaviors {
